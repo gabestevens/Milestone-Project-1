@@ -1,26 +1,70 @@
-#gameCanvas {
-    display: block;
-    margin: auto;
-    background-color: #1C421E;
-    border: 10px solid #0C2323;
-  }
-  
-  .snake {
-    fill: #2A623D;
-    stroke: #0C2323;
-    stroke-width: 2;
-  }
-  
-  .food {
-    fill: #EEE8D5;
-    stroke: #0C2323;
-    stroke-width: 2;
-  }
-  
-  .score {
-    color: #EEE8D5;
-    font-family: 'Harry Potter';
-    font-size: 24px;
+body {
     text-align: center;
-  }
-  
+    color: white;
+    background-image: url("assets/images/background.png");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 48px;
+    color: #717c7a;
+    text-transform: uppercase;
+    left: 20%;
+    top: 100%;
+    bottom: 40px;
+    text-align: center;
+
+}
+
+#table {
+    margin: 0 auto;
+    border: 5px solid #717c7a;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px#6992b2;
+    width: 100%;
+    max-width: 700px;
+    background-color: #8f9d99;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 47%;
+}
+
+#score {
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 48px;
+    color: #a9d8fc;
+}
+
+#outside {
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 48px;
+    color: #717c7a;
+
+
+    background: rgb(214,224,222);
+    background: linear-gradient(180deg, rgba(214,224,222,0.8477984943977591) 0%, rgba(162,172,170,0.836594012605042) 100%);
+    border: 5px solid #717c7a;
+    box-shadow: 0 0 7px#6992b2;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 30px;
+    text-align: bottom;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    max-width: 900px;
+    max-height: 900px;
+    position: absolute;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 47%;
+
+
+}
